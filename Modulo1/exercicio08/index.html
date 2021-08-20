@@ -17,7 +17,12 @@
     <li><a href="Livro/Lisa de exercícios basico ao avançado Python.pdf" type="application/pdf" download="Lisa de exercícios basico ao avançado Python.pdf">Baixar livro em PDF</a></li>
     <li><a href="Livro/Lisa de exercícios basico ao avançado Python.zip" type="application/pdf" download="Lisa de exercícios basico ao avançado Python.zip">Baixar livro em PDF</a></li>
     <p>Fotos em varios tamanhos diferentes</p>
-    <img src="imagens/g.png" alt="imagem flexivel">
+    <picture>    
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+
 
 </body>
 </html>
