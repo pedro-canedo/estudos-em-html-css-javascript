@@ -7,9 +7,11 @@ body {
 h1 {
     color: darkblue;
     background-color: lightblue;
+    text-align: center;
 }
 h2 {
     color: darkred;
+    text-align: start;
 }
 p {
     text-align: justify;
