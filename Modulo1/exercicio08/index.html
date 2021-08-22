@@ -22,6 +22,17 @@
         <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
         <img src="imagens/g.png" alt="imagem flexivel">
     </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Abaixo incluimos um áudio.</p>
+    <!--<audio src="midia/musica.mp3" controls autoplay></audio> metodo direto---> 
+    
+    <!--FORMATOS COMPATÍVEIS/ MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.mp3" type="audio/ogg">
+        <source src="midia/musica.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+    </audio>
 
 
 </body>
