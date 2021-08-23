@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    text-align: justify;
+    font-size: 20px;
+    image-orientation: inherit;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: lightgreen;
+}
+
+h2 {
+    text-align: left;
+    color: black;
+}
+
+p {
+    color: brown;
+    text-align: justify;
+}
