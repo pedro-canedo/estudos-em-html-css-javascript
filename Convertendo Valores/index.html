@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Conversor" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra várias conversões
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <img src="https://acegif.com/wp-content/gifs/coin-flip-33.gif" class="page-logo" alt=""><br><br>
+      
+        <label for="moeda">Insira o valor em dolar U$</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter</button>
+        <h2 id="valorConvertidoReal"></h2>
+        <h2 id="valorConvertidoEuro"></h2>
+        <h2 id="valorConvertidoBitcoin"></h2>
+        <h2 id="valorConvertidoRenminbi"></h2>
+      
+      </div>
+      
+      <div class="container2">
+        <h1 class="page-title">
+          Descubra quanto tempo leva
+        </h1>
+        <p class="page-subtitle">
+          Descubra a distancia de sua viajem em anos luz convertida em quilômetros
+        </p>
+        <img src="https://t.ctcdn.com.br/_Zfv-3_8VT_xcMdO5kZy2T0SgMU=/i2913.gif" class="imagem" alt=""><br><br>
+      
+        <label for="distancia">Por quantos Anos luz pretende viajar ?</label><br>
+        <input type="number" id="distancia" size="2" /><br>
+        <button type="submit" onclick="ConverterDistancia()">Converter em KM</button>
+        <h2 id="distanciaAnosLuz"></h2>
+      
+      </div>
+      
+      <div class="container3">
+        <h1 class="page-title">
+          Conversor de temperatura
+        </h1>
+        <p class="page-subtitle">
+          Conversor de temperatura
+        </p>
+        <img src="https://c.tenor.com/_rabzV-JjTIAAAAM/very-hot-high-temperature.gif" class="page-logo" alt=""><br><br>
+      
+        <label for="temperatura">Adicione a temperatura a ser convertida em graus Celsius ºC</label><br>
+        <input type="number" id="celsius" size="2" /><br>
+        <button type="submit" onclick="ConverterTemperatura()">Converter</button>
+        <h2 id="tempfarenhide"></h2>
+        <h2 id="tempkelvin"></h2>
+      
+      </div>
+      
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">    
+</body>
+</html>
